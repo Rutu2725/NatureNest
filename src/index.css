@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-earth-50: #faf9f6;
+  --color-earth-100: #f4f1ea;
+  --color-earth-200: #e8e2d4;
+  --color-earth-300: #d6ccb6;
+  --color-earth-800: #423621;
+  --color-forest-50: #f4f7f4;
+  --color-forest-100: #e4ece3;
+  --color-forest-500: #386641;
+  --color-forest-700: #1b4d3e;
+  --color-forest-900: #14281d;
+  --color-amber-500: #f5b041;
+  --color-amber-600: #d4ac0d;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-earth-50);
+  color: var(--color-forest-900);
+}
+
+/* Custom scrollbar to keep it earthy */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-earth-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-forest-500);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-forest-700);
+}
