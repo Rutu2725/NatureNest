@@ -1,0 +1,6 @@
+{
+  "name": "Nature's Nest",
+  "description": "A beautiful and responsive website for Nature's Nest farmhouse in Chaitanyapur, Akole, celebrating rustic village life, lush orchards, and stunning weather.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
